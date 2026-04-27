@@ -1,0 +1,66 @@
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# === Java class files ===
+*.class
+
+# === Logs ===
+logs/
+*.log
+*.out
+
+# === Spring Boot ===
+spring-boot-devtools.jar
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VS Code / Cursor
+.vscode/
+.cursor/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Environment & Credentials ===
+.env
+*.env
+*.key
+*.pem
+
+# === Test coverage ===
+coverage/
+jacoco.exec
+
+# === Local databases ===
+*.h2.db
+*.sqlite
+*.db
+
+# === Build artifacts ===
+*.jar
+*.war
+*.ear
+
+# === Temporary files ===
+*.tmp
+*.bak
+*.sw?
+*.orig
+
+# Environment variables
+.env
+.env.*
+!.env.template
