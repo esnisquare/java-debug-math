@@ -11,7 +11,8 @@ public class MathService {
 
     public int subtract(int a, int b) {
         int difference = a - b;
-        return difference;
+        int checked = difference;
+        return checked;
     }
 
     public int multiply(int a, int b) {
