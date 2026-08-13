@@ -10,7 +10,8 @@ public class MathService {
     }
 
     public int subtract(int a, int b) {
-        return a - b;
+        int difference = a - b;
+        return difference;
     }
 
     public int multiply(int a, int b) {
